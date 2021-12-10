@@ -1,0 +1,80 @@
+body
+{
+    text-align: center;
+    background:linear-gradient(pink 0%,aqua 100%);
+	
+}
+
+img
+{
+  text-align: center;
+  border-radius:10%;
+  width:200px;
+  height:200px;
+}
+
+
+h1{
+  text-shadow:  #F8BBD0;
+  font-size:20px;
+}
+
+
+p{
+  font-size:18px;
+  color:#6A1B9A;
+  
+    
+}
+h2{
+  font-size:20px;
+  color:#1A237E;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin: auto;
+}
+#bio{
+    padding:20px;
+    font-size:18;
+    text-align:center;
+}
+.menu{
+  list-style: none;
+  position: sticky;
+  top:10px;
+  right:50px;
+  z-index:10px;
+  cursor:pointer;
+}
+.links{
+  float:left;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:9px;
+  padding-right:9px;
+  font-family:fantasty;
+  font-size:20px;
+  background-color: #546E7A;
+  color: white;
+}
+#apps{
+  height: 700px;
+  background-color:#8E24AA;
+}
+#games{
+  height: 700px;
+  background-color:#FF5252;
+}
+#chatbot{
+  background-color: #FF3D00;
+}
+a{
+  text-decoration : none; 
+  color: white; 
+} 
+.links:hover{ 
+  background-color:aqua; 
+}
